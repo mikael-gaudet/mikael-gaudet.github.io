@@ -91,8 +91,10 @@
   <center>
     <div id="content0">
       <div id="ani-img">
-        <img id="my-img" src="Images/Computer/Comp1.png" onmouseover="hover0(this);" onmouseout="unhover0(this);" border="5"/>
-        <img id="my-img" src="Images/Sofa/Sofa1.png" onmouseover="hover1(this);" onmouseout="unhover1(this);" border="5"/>
+        <a href="index.html#Comp-target">
+          <img id="my-img" src="Images/Computer/Comp1.png" onmouseover="hover0(this);" onmouseout="unhover0(this);" border="5"/>
+        </a>
+        <img id="my-img" src="Images/Sofa/Sofa1.jpg" onmouseover="hover1(this);" onmouseout="unhover1(this);" border="5"/>
         <img id="my-img" src="Images/Space/Spac1.png" onmouseover="hover2(this);" onmouseout="unhover2(this);" border="5"/>
 
         <script type="text/javascript">
@@ -103,7 +105,7 @@
               element.setAttribute('src', 'Images/Computer/Comp2.png');
                 }
           function unhover1(element) { /* Makes images change on hover*/
-              element.setAttribute('src', 'Images/Sofa/Sofa1.png');
+              element.setAttribute('src', 'Images/Sofa/Sofa1.jpg');
                 }
           function hover1(element) { /* Makes images change on hover*/
               element.setAttribute('src', 'Images/Sofa/Sofa2.png');
@@ -122,7 +124,7 @@
     <div style="display:inline; white-space:nowrap;">
     <div class="content1">
     <div class="spliter"></div> <br />
-    <img src="Images/Computer/Comp1.png" style="width:100vw;height:auto;"/>
+    <img id="Comp-target"src="Images/Computer/Comp1.png" style="width:100vw;height:auto;"/>
     <h1>The Computer.</h1>
     <h3>I made this retro computer render in the cycles render engine within
        blender. I spend a weekend  <br />making this and utilized uv
