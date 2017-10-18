@@ -8,12 +8,12 @@
         width: 0px;
         height: 0px;
         display: inline;
-        background-image: url(Images/Computer/Comp1.png);
-        background-image: url(Images/Computer/Comp2.png);
-        background-image: url(Images/Sofa/Sofa1.png);
-        background-image: url(Images/Sofa/Sofa2.png);
-        background-image: url(Images/Space/Spac1.png);
-        background-image: url(Images/Space/Spac2.png);
+        background-image: url(Images/Computer/Comp1.jpg);
+        background-image: url(Images/Computer/Comp2.jpg);
+        background-image: url(Images/Sofa/Sofa1.jpg);
+        background-image: url(Images/Sofa/Sofa2.jpg);
+        background-image: url(Images/Space/Spac1.jpg);
+        background-image: url(Images/Space/Spac2.jpg);
         }
         /* Creats parallax effect */
       .parallax {
@@ -101,29 +101,32 @@
     <div id="content0">
       <div id="ani-img">
         <a href="index.html#Comp-target">
-          <img id="my-img" src="Images/Computer/Comp1.png" onmouseover="hover0(this);" onmouseout="unhover0(this);" border="5"/>
+          <img id="my-img" src="Images/Computer/Comp1.jpg" onmouseover="hover0(this);" onmouseout="unhover0(this);" border="5"/>
         </a>
-        <img id="my-img" src="Images/Sofa/Sofa1.jpg" onmouseover="hover1(this);" onmouseout="unhover1(this);" border="5"/>
-        <img id="my-img" src="Images/Space/Spac1.png" onmouseover="hover2(this);" onmouseout="unhover2(this);" border="5"/>
-
+        <a href="index.html#Sofa-target">
+          <img id="my-img" src="Images/Sofa/Sofa1.jpg" onmouseover="hover1(this);" onmouseout="unhover1(this);" border="5"/>
+        </a>
+        <a href="index.html#Spac-target">
+          <img id="my-img" src="Images/Space/Spac1.jpg" onmouseover="hover2(this);" onmouseout="unhover2(this);" border="5"/>
+        </a>
         <script type="text/javascript">
           function unhover0(element) { /* Makes images change on hover*/
-              element.setAttribute('src', 'Images/Computer/Comp1.png');
+              element.setAttribute('src', 'Images/Computer/Comp1.jpg');
                 }
           function hover0(element) { /* Makes images change on hover*/
-              element.setAttribute('src', 'Images/Computer/Comp2.png');
+              element.setAttribute('src', 'Images/Computer/Comp2.jpg');
                 }
           function unhover1(element) { /* Makes images change on hover*/
               element.setAttribute('src', 'Images/Sofa/Sofa1.jpg');
                 }
           function hover1(element) { /* Makes images change on hover*/
-              element.setAttribute('src', 'Images/Sofa/Sofa2.png');
+              element.setAttribute('src', 'Images/Sofa/Sofa2.jpg');
                 }
           function unhover2(element) { /* Makes images change on hover*/
-              element.setAttribute('src', 'Images/Space/Spac1.png');
+              element.setAttribute('src', 'Images/Space/Spac1.jpg');
                 }
           function hover2(element) { /* Makes images change on hover*/
-              element.setAttribute('src', 'Images/Space/Spac2.png');
+              element.setAttribute('src', 'Images/Space/Spac2.jpg');
                 }
         </script>
         </div>
@@ -133,7 +136,7 @@
     <div style="display:inline; white-space:nowrap;">
     <div class="content1">
     <!-- <div class="spliter"></div> <br />  TODO add spliter with image webspliter-->
-    <img id="Comp-target"src="Images/Computer/Comp1.png" style="width:100vw;height:auto;"/>
+    <img id="Comp-target"src="Images/Computer/Comp1.jpg" style="width:100vw;height:auto;"/>
     </div>
     <div class="content2">
     <!-- <div class="spliter"></div> <br />  TODO add spliter with image webspliter-->
@@ -141,7 +144,7 @@
     </div>
     <div class="content3">
     <!-- <div class="spliter"></div> <br />  TODO add spliter with image webspliter-->
-      <img id="Spac-target"src="Images/Space/Spac1.png" style="width:100vw;height:auto;"/>
+      <img id="Spac-target"src="Images/Space/Spac1.jpg" style="width:100vw;height:auto;"/>
     </div>
   </div>
     </div>
