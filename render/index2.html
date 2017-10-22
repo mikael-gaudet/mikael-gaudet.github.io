@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>.Render</title>
+    <link rel = "stylesheet"  type = "text/css" href = "myStyle.css" />
+  </head>
+  <body>
+    <div class="parallax"></div>
+    <center>
+      <div class="content0">
+        <a href="index.html#Comp-target">
+          <img id="my-img" src="Images/Computer/Comp1.jpg" onmouseover="hover0(this);" onmouseout="unhover0(this);" border="5"/>
+        </a>
+        <a href="index.html#Sofa-target">
+          <img id="my-img" src="Images/Sofa/Sofa1.jpg" onmouseover="hover1(this);" onmouseout="unhover1(this);" border="5"/>
+        </a>
+        <a href="index.html#Spac-target">
+          <img id="my-img" src="Images/Space/Spac1.jpg" onmouseover="hover2(this);" onmouseout="unhover2(this);" border="5"/>
+        </a>
+        <script src="content0.js"></script>
+      </div>
+    </center>
+    <div class="content1">
+      <!-- <div class="spliter"></div> <br />  TODO add spliter with image webspliter-->
+      <img id="Comp-target"src="Images/Computer/Comp1.jpg" style="width:100vw;height:auto;"/>
+      <h1>The computer.</h1>
+      <h3>I made this retro computer render in the cycles render engine within blender.
+        I spent a weekend making this and utilized uv unwrapping, Node Based materials,
+        Keylighting, and Modeling using loop cuts and subdivision modifiers.</h3>
+    </div>
+    <div class="content2">
+      <!-- <div class="spliter"></div> <br />  TODO add spliter with image webspliter-->
+      <img id="Sofa-target"src="Images/Sofa/Sofa1.jpg" style="width:100vw;height:auto;"/>
+      <h1>The sofa.</h1>
+      <h3>I creating this sofa in about a week. I utilized the node based materials within the cycles render engine,
+        UV unwrapping. The modeling of this sofa was achieved using mirror modifiers, subdivision modifiers, smoothing,
+        edge split modifier, and loop cuts, and blenders auto verecy welding. </h3>
+    </div>
+    <div class="content3">
+      <!-- <div class="spliter"></div> <br />  TODO add spliter with image webspliter-->
+      <img id="Spac-target"src="Images/Space/Spac1.jpg" style="width:100vw;height:auto;"/>
+      <h1>The scifi dining room.</h1>
+      <h3>I created this spaceship hallway dining room mostly to explore texturing in blender.
+        To create this render I utilized blenders built in raytracing render engine cycles,
+        using its node based materials (Fernel and diffuse, velvet, glass and glossy nodes), UV unwrapping
+        and texturing and modeling using subdivisions and loop cuts. </h3>
+    </div>
+  </body>
+</html>
