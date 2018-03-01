@@ -1,0 +1,54 @@
+
+<body>
+	<div class:"Header">
+		<center>
+		<img src="webheader.png" style="width: 100%;height:auto;">
+		</center>
+	</div>
+<style type="text/css">
+		body {
+			background-color: #c71b00;
+		}
+		h1 {
+			font-size: 600%;
+			color: white;
+		}
+		div {
+		    text-align: center;
+		}
+
+		div img {
+		    display: inline-block;
+		}
+		* { margin: 0; }
+</style>
+<div>
+		<img id="my-img" src="Sofa1.png" onmouseover="hover1(this);" onmouseout="unhover1(this);" style="width:30%;height:auto;" border="5"/>
+		<script type="text/javascript">
+		function unhover1(element) {
+		    element.setAttribute('src', 'Sofa1.png');
+		}
+		function hover1(element) {
+		    element.setAttribute('src', 'Sofa2.png');
+		}
+		</script>
+		<img id="my-img" src="Comp1.png" onmouseover="hover(this);" onmouseout="unhover(this);" style="width:30%;height:auto;" border="5"/>
+		<script type="text/javascript">
+			function unhover(element) {
+			    element.setAttribute('src', 'Comp1.png');
+			}
+			function hover(element) {
+			    element.setAttribute('src', 'Comp2.png');
+			}
+		</script>
+		<img id="my-img" src="Space1.png" onmouseover="hover2(this);" onmouseout="unhover2(this);" style="width:30%;height:auto;" border="5"/>
+		<script type="text/javascript">
+					function unhover2(element) {
+		    element.setAttribute('src', 'Space1.png');
+		}
+		function hover2(element) {
+		    element.setAttribute('src', 'Space2.png');
+		}
+		</script>
+</div>
+</body>
